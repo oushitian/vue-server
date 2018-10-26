@@ -1,0 +1,24 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /fd
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.28.2.19:3306/wanghuan?useSSL=false&amp;characterEncoding=utf-8&amp;jdbcCompliantTruncation=false&amp;zeroDateTimeBehavior=convertToNull
+    username: zpzy_test
+    password: 123456
+  redis:
+    database: 0
+    host: 172.28.2.16
+    port: 7001
+    password: Zpzy2018
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.wanghuan.model
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
+    com.wanghuan: DEBUG
