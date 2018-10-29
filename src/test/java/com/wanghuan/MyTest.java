@@ -1,4 +1,4 @@
-package com.wanghuan;
+package com.fd;
 
 import java.io.BufferedReader;
 import java.io.IOException;

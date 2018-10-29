@@ -15,10 +15,10 @@ spring:
     password: Zpzy2018
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
-  type-aliases-package: com.wanghuan.model
+  type-aliases-package: com.fd.model
 
 logging:
   level:
     org.springframework.web: DEBUG
     org.springframework.security: DEBUG
-    com.wanghuan: DEBUG
+    com.fd: DEBUG
